@@ -1,0 +1,255 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+:root {
+  --blue: hsl(207, 26%, 17%);
+  --lighter: hsl(209, 23%, 22%);
+  --white: whitesmoke;
+  --blackk: black;
+  --element-transition: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Quicksand";
+  box-sizing: border-box;
+}
+body {
+  background: var(--blue);
+  color: var(--white);
+  width: 100vw;
+  height: 100vh;
+  transition: var(--element-transition);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+.home-page {
+  /* max-width: 100%; */
+  height: 80rem;
+  /* padding: 0 3.2rem; */
+  margin: 0 auto;
+  background: var(--background-color2);
+  color: var(--white);
+}
+
+.header-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--lighter);
+  color: var(--white);
+  width: 100%;
+  padding: 2rem 4rem;
+  transition: var(--element-transition);
+  box-shadow: 0 5px 1px rgba(0, 0, 0, 0.022);
+}
+
+.hidden {
+  display: none;
+}
+#darkMode {
+  display: flex;
+  align-items: center;
+}
+#darkMode:hover,
+#darkMode:focus {
+  background-color: black;
+  cursor: pointer;
+}
+#darkMode.clicked {
+  background-color: black;
+}
+
+.dark-mode {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  /* width: 40px; */
+}
+
+.dark-mode p {
+  margin-left: 5px;
+  font-weight: 600;
+}
+
+.icon {
+  font-size: 15px;
+  /* color: black; */
+}
+
+.search-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3rem 4rem;
+}
+
+.search {
+  background-color: var(--lighter);
+  width: 30rem;
+  padding: 0.5rem 2rem;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.207);
+  border-radius: 5px;
+  transition: var(--element-transition);
+}
+
+.searchCountry {
+  /* display: flex;
+  flex-direction: row; */
+  align-items: center;
+  background-color: var(--lighter);
+  color: var(--white);
+
+  outline: none;
+  border: none;
+  height: 4rem;
+  padding-left: 2rem;
+}
+
+.options {
+  background-color: var(--lighter);
+  color: var(--white);
+
+  outline: none;
+  border: none;
+  height: 4.7rem;
+  padding: 0.5rem 2rem;
+  padding-right: 3rem;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.207);
+  border-radius: 5px;
+}
+
+option {
+  outline: none;
+  border: none;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.country-info {
+  background-color: var(--lighter);
+  margin: 2rem 4rem;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.207);
+  border-radius: 5px;
+  width: 20rem;
+  height: fit-content;
+  font-size: 5px;
+}
+
+.info {
+  padding: 3rem 2rem;
+}
+.info p {
+  padding: 0.2rem 0;
+  font-size: 3px;
+}
+.info :nth-child(2) {
+  padding-top: 1rem;
+}
+
+.img {
+  height: 15.6rem;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+/* DETAILS PAGE */
+
+.body {
+  color: var(--white);
+  background-color: var(--blue);
+
+  padding: 6rem 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+.button {
+  font-size: 15px;
+  background-color: var(--lighter);
+  color: var(--white);
+  display: flex;
+  /* padding: 5px 15px; */
+  border-radius: 5px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.193);
+  transition: none;
+  cursor: pointer;
+  margin-bottom: 5rem;
+  padding-bottom: 3px;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 10rem;
+  height: 4rem;
+}
+
+.arrow-left {
+  font-size: 1rem;
+}
+
+.img2 {
+  width: 40rem;
+  height: 25rem;
+}
+
+.details {
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: space-between; */
+}
+
+.details h1 {
+  margin-bottom: 1rem;
+}
+.details p {
+  margin-bottom: 0.7rem;
+  font-weight: 500;
+}
+.details .main-details {
+  margin-left: 10rem;
+  width: 50rem;
+}
+
+.sub-details {
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+}
+
+.sub-details span {
+  font-weight: lighter;
+  padding-left: 0.5rem;
+}
+
+.border-country {
+  font-size: 10px;
+  margin: 0 4px;
+  background-color: var(--blue);
+  padding: 4px 20px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.207);
+  border-radius: 2px;
+  text-align: center;
+  transition: none;
+  cursor: pointer;
+}
+
+.border-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 4px;
+  row-gap: 8px;
+  margin-top: 10px;
+}
+
+.border-div {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
