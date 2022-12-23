@@ -41,9 +41,9 @@ const HomePage = () => {
     <div className="home-page">
       <div className="search-section">
         <div className="search">
-          <GoSearch />
+          <GoSearch className="go-search" />
           <input
-            className="searchCountry"
+            className="searchCounvtry"
             placeholder="Search for a country"
             value={input}
             onInput={(e) => {
