@@ -268,24 +268,28 @@ option {
 
   /* search section */
   .search-section {
-    padding: 1rem 2rem;
+    padding: 3rem 2rem;
   }
   .search {
-    width: 7rem;
-    height: 2rem;
+    width: 13rem;
+    height: 3rem;
     padding: 0.5rem 0.5rem;
   }
   .searchCountry {
     height: 2rem;
-    width: 4rem;
+    width: 10rem;
     padding-left: 1rem;
+  }
+  input::placeholder {
+    font-size: 10px;
   }
   .go-search {
     font-size: 10px;
   }
   .options {
-    width: 5rem;
-    height: 2rem;
+    width: 10rem;
+    font-size: 12px;
+    height: 3rem;
     padding: 0.2rem 0.5rem;
     padding-right: 1rem;
   }
