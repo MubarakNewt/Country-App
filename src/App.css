@@ -90,7 +90,7 @@ a {
 
 .search {
   background-color: var(--lighter);
-  width: 23rem;
+  width: 15rem;
   /* height: 3rem; */
   padding: 0.5rem 2rem;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.207);
@@ -283,7 +283,7 @@ option {
     padding: 3rem 2rem;
   }
   .search {
-    width: 13rem;
+    width: 10rem;
     height: 3rem;
     padding: 0.5rem 0.5rem;
   }
