@@ -299,7 +299,7 @@ option {
     font-size: 10px;
   }
   .options {
-    width: 10rem;
+    width: 7.5rem;
     font-size: 8px;
     height: 3rem;
     padding: 0.2rem 0.5rem;
@@ -317,9 +317,9 @@ option {
   } */
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 400px) {
   .search {
-    width: 6.5rem;
+    width: 8rem;
     height: 3rem;
     padding: 0.5rem 0.5rem;
   }
