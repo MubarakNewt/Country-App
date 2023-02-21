@@ -35,6 +35,10 @@ const HomePage = () => {
     setCurrentCountries(newRegion);
   };
 
+  const region = data && data[0];
+
+  console.log(region);
+
   const current = null;
 
   return (
@@ -61,14 +65,21 @@ const HomePage = () => {
             setOption(e.target.value);
           }}
           onClick={searchByRegion}
+          placeholder="mememe"
         >
-          <option>Filter by Region</option>
-          <option>Africa</option>
+          <option value="">Filter by Region</option>
+          {/* {console.log(continents)} */}
+          {/* <option>Africa</option>
           <option>South America</option>
           <option>North America</option>
           <option>Asia</option>
+          [
+            data?.map((val) => {
+              val?.continents[0];
+            }),
+          ]
           <option>Europe</option>
-          <option>Oceania</option>
+          <option>Oceania</option> */}
         </select>
       </div>
       <div className="content">

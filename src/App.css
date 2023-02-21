@@ -90,7 +90,8 @@ a {
 
 .search {
   background-color: var(--lighter);
-  width: 30rem;
+  width: 23rem;
+  /* height: 3rem; */
   padding: 0.5rem 2rem;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.207);
   border-radius: 5px;
@@ -113,7 +114,7 @@ a {
 .options {
   background-color: var(--lighter);
   color: var(--white);
-
+  width: 12rem;
   outline: none;
   border: none;
   height: 4.7rem;
@@ -126,6 +127,7 @@ a {
 option {
   outline: none;
   border: none;
+  /* font-size: 6px; */
 }
 
 .content {
@@ -298,10 +300,14 @@ option {
   }
   .options {
     width: 10rem;
-    font-size: 12px;
+    font-size: 8px;
     height: 3rem;
     padding: 0.2rem 0.5rem;
     padding-right: 1rem;
+  }
+
+  option {
+    font-size: 6px;
   }
 
   /* .content {
