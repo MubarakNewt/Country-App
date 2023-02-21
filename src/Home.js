@@ -48,7 +48,7 @@ const HomePage = () => {
           <GoSearch className="go-search" />
           <input
             className="searchCountry"
-            placeholder="Search "
+            placeholder="Search for country"
             value={input}
             onInput={(e) => {
               setInput(e.target.value);
