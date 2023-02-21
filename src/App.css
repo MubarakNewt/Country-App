@@ -283,7 +283,7 @@ option {
     padding: 3rem 2rem;
   }
   .search {
-    width: 10rem;
+    width: 13rem;
     height: 3rem;
     padding: 0.5rem 0.5rem;
   }
@@ -317,5 +317,10 @@ option {
   } */
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 400px) {
+  .search {
+    width: 10rem;
+    height: 3rem;
+    padding: 0.5rem 0.5rem;
+  }
 }
