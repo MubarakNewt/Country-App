@@ -322,6 +322,7 @@ option {
     width: 13rem;
     height: 3rem;
     padding: 0.5rem 0.5rem;
+    padding-right: 0rem;
   }
   .options {
     width: 8.5rem;
