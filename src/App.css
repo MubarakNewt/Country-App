@@ -319,12 +319,12 @@ option {
 
 @media screen and (max-width: 400px) {
   .search {
-    width: 12rem;
+    width: 13rem;
     height: 3rem;
     padding: 0.5rem 0.5rem;
   }
   .options {
-    width: 6rem;
+    width: 8rem;
     height: 3rem;
   }
 }
