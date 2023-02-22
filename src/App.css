@@ -282,11 +282,11 @@ option {
   .search-section {
     padding: 3rem 2rem;
   }
-  .search {
+  /* .search {
     width: 8rem;
     height: 3rem;
     padding: 0.5rem 0.5rem;
-  }
+  } */
   .searchCountry {
     height: 2rem;
     width: 10rem;
@@ -298,13 +298,13 @@ option {
   .go-search {
     font-size: 10px;
   }
-  .options {
+  /* .options {
     width: 10rem;
     font-size: 8px;
     height: 3rem;
     padding: 0.2rem 0.5rem;
     padding-right: 1rem;
-  }
+  } */
 
   option {
     font-size: 6px;
