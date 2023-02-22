@@ -317,7 +317,7 @@ option {
   } */
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 414px) {
   .search {
     width: 13rem;
     height: 3rem;
