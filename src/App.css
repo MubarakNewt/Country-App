@@ -282,11 +282,11 @@ option {
   .search-section {
     padding: 3rem 2rem;
   }
-  /* .search {
+  .search {
     width: 8rem;
     height: 3rem;
     padding: 0.5rem 0.5rem;
-  } */
+  }
   .searchCountry {
     height: 2rem;
     width: 10rem;
@@ -298,23 +298,17 @@ option {
   .go-search {
     font-size: 10px;
   }
-  /* .options {
+  .options {
     width: 10rem;
     font-size: 8px;
     height: 3rem;
     padding: 0.2rem 0.5rem;
     padding-right: 1rem;
-  } */
+  }
 
   option {
     font-size: 6px;
   }
-
-  /* .content {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    row-gap: 40px;
-  } */
 }
 
 @media screen and (max-width: 414px) {
@@ -328,5 +322,65 @@ option {
     width: 8.5rem;
     height: 3rem;
     padding: 0.2rem 0.5rem;
+  }
+
+  /* header section */
+  .header-section {
+    padding: 1rem 1.5rem;
+  }
+  .header-section h1 {
+    font-size: 15px;
+  }
+  .dark-mode {
+    font-size: 12px;
+  }
+
+  /* search section */
+  .search-section {
+    padding: 3rem 2rem;
+  }
+
+  .searchCountry {
+    height: 2rem;
+    width: 10rem;
+    padding-left: 1rem;
+  }
+  input::placeholder {
+    font-size: 10px;
+  }
+  .go-search {
+    font-size: 10px;
+  }
+
+  option {
+    font-size: 6px;
+  }
+
+  /* DETAILS PAGE */
+  .body {
+    /* padding: 6rem 4rem; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+  }
+
+  .img2 {
+    width: 20rem;
+    height: 10rem;
+  }
+
+  .details {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main-details {
+    margin-right: 0;
+  }
+
+  .sub-details {
+    display: flex;
+    flex-direction: column;
   }
 }
